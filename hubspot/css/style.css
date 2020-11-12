@@ -26,21 +26,41 @@
 } */
 header{
 width: 100%;
+background-color: #f5f8fa;
+}
+.bianco{
+  background-color: white;
 }
 .nav{
   padding: 25px 0;
 }
-
+#lente{
+  color: lightblue;
+}
+#eng{
+margin-left: 0px;
+}
+.dx{
+ margin-left: 20px;
+}
 ul{
   list-style: none;
 }
 ul li{
   display: inline;
 }
+li{
+  font-size: 18px;
+  margin: 0px 10px;
+}
+/* i{
+  margin: 0px 20px;
+} */
 .btn{
   text-decoration: none;
   border-radius: 5px;
-  padding: 20px 30px;
+  /* padding-right:20px; DA FIXARE */
+  color: #394c60
 }
 .btn-orange{
  background-color: #ff7a59;
@@ -48,13 +68,16 @@ ul li{
 }
 .btn-white{
 color: #ff7a59;
-background-color: white;
+border: 1px solid #ff7a59;
 }
 .btn-medium{
  padding: 10px;
 }
 .btn-large{
  padding: 20px;
+}
+.btn-grey{
+  color: #394c60;
 }
 .jumbotron{
   background-image: url('../img/jumbotron.png');
@@ -65,13 +88,13 @@ background-color: white;
 }
 .jumbotron-testo{
   width: 500px;
-  padding-top:  40px;
+
   margin-left: 10%;
 }
 h1{
+  padding-top: 50px;
   color: #33475b;
   font-size: 50px;
-
 }
 p{
   margin-bottom: 40px;
@@ -79,7 +102,6 @@ p{
   line-height: 22px;
 }
 /* SISTEMARE MARGINI IN MODO PIU PRECISOù */
-
 .bar{
   height: 72px;
   width: 100%;
