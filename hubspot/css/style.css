@@ -1,0 +1,57 @@
+/* default */
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+/* CENTRATURA DIV */
+.centro{
+  width: 80%;
+  margin: 0 auto;
+}
+.float-right{
+  float: right;
+}
+.float-left{
+  float: left;
+}
+.clearfix::after{
+  display: table;
+  clear: both;
+  content:""
+}
+/* REGOLE CONTAINER PREIMPO */
+
+
+header{
+background-color: red;
+width: 100%;
+height: 300px;
+}
+
+.header{
+  background-color: grey;
+  height: 100px;
+}
+
+.header.inf{
+  background-color: yellow;
+}
+
+.nav{
+  background-color: green;
+  height: 100px;
+  width: 100px;
+}
+
+.jumbotron{
+  background-image: url('../img/jumbotron.png');
+  height: 300px;
+  width: 100%
+}
+
+.jumbotron-testo{
+  background-color: blue;
+  height: 200px;
+
+}
