@@ -21,27 +21,16 @@
   content:""
 }
 /* REGOLE CONTAINER PREIMPO */
-
 /* .ico{
  #f7a2
 } */
-
 header{
-
 width: 100%;
-
 }
-
-.header{
-  background-color: grey;
-  height: 100px;
-}
-
 .nav{
-  padding-top: 30px;
+  padding: 25px 0;
 }
-.nav .dx{
-}
+
 ul{
   list-style: none;
 }
@@ -54,11 +43,11 @@ ul li{
   padding: 20px 30px;
 }
 .btn-orange{
- background-color: orange;
+ background-color: #ff7a59;
  color: white;
 }
 .btn-white{
-color: orange;
+color: #ff7a59;
 background-color: white;
 }
 .btn-medium{
@@ -69,12 +58,35 @@ background-color: white;
 }
 .jumbotron{
   background-image: url('../img/jumbotron.png');
-  height: 700px;
+  height: 670px;
   width: 100%;
+  position: relative;
+  background-position: right;top:
 }
 .jumbotron-testo{
-  background-color: lightblue;
-  height: 200px;
-  margin: 0 auto;
-  padding-top:  30px;
+  width: 500px;
+  padding-top:  40px;
+  margin-left: 10%;
+}
+h1{
+  color: #33475b;
+  font-size: 50px;
+
+}
+p{
+  margin-bottom: 40px;
+  margin-top:40px;
+  line-height: 22px;
+}
+/* SISTEMARE MARGINI IN MODO PIU PRECISOù */
+
+.bar{
+  height: 72px;
+  width: 100%;
+  background-color: #afebe4;
+  border-top: 4px solid #273a51;
+  border-bottom: 4px solid #273a51;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
 }
