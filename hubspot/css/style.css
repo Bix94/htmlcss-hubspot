@@ -38,7 +38,8 @@ background-color: #f5f8fa;
   color: lightblue;
 }
 #eng{
-margin-left: 0px;
+border-right: 2px solid black;
+padding-right: 20px;
 }
 .dx{
  margin-left: 20px;
@@ -53,9 +54,6 @@ li{
   font-size: 18px;
   margin: 0px 10px;
 }
-/* i{
-  margin: 0px 20px;
-} */
 .btn{
   text-decoration: none;
   border-radius: 5px;
@@ -75,6 +73,7 @@ border: 1px solid #ff7a59;
 }
 .btn-large{
  padding: 20px;
+
 }
 .btn-grey{
   color: #394c60;
@@ -88,7 +87,6 @@ border: 1px solid #ff7a59;
 }
 .jumbotron-testo{
   width: 500px;
-
   margin-left: 10%;
 }
 h1{
@@ -98,9 +96,13 @@ h1{
 }
 p{
   margin-bottom: 40px;
-  margin-top:40px;
-  line-height: 22px;
+  margin-top: 30px;
+  line-height: 25px;
 }
+/* #mar{
+  margin-bottom: 30px;
+  da chiedere
+} */
 /* SISTEMARE MARGINI IN MODO PIU PRECISOù */
 .bar{
   height: 72px;
