@@ -4,6 +4,9 @@
  padding: 0px;
  box-sizing: border-box;
 }
+.body{
+  font-size:
+}
 /* CENTRATURA DIV */
 .centro{
   width: 80%;
@@ -28,6 +31,16 @@ header{
 width: 100%;
 background-color: #f5f8fa;
 }
+
+/* WARNING .header .inf .centro{
+  line-height: 80px;
+  height: 80px;
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+  border-color: #fff;
+} */
+/* da verificare */
 .bianco{
   background-color: white;
 }
@@ -54,6 +67,7 @@ li{
   font-size: 18px;
   margin: 0px 10px;
 }
+/* selettori btn */
 .btn{
   text-decoration: none;
   border-radius: 5px;
@@ -73,7 +87,6 @@ border: 1px solid #ff7a59;
 }
 .btn-large{
  padding: 20px;
-
 }
 .btn-grey{
   color: #394c60;
@@ -89,21 +102,19 @@ border: 1px solid #ff7a59;
   width: 500px;
   margin-left: 10%;
 }
+/* z WARNING */
+.jumbotron-testo > *{
+  margin-bottom: 25px;
+}
 h1{
   padding-top: 50px;
   color: #33475b;
   font-size: 50px;
 }
-p{
-  margin-bottom: 40px;
-  margin-top: 30px;
-  line-height: 25px;
+.jumbotron .jumbotron-testo span{
+  display: inline-block;
 }
-/* #mar{
-  margin-bottom: 30px;
-  da chiedere
-} */
-/* SISTEMARE MARGINI IN MODO PIU PRECISOù */
+/* WARNING SISTEMARE MARGINI IN MODO PIU PRECISOù */
 .bar{
   height: 72px;
   width: 100%;
@@ -113,4 +124,66 @@ p{
   position: absolute;
   bottom: 0%;
   left: 0%;
+}
+.top{
+  background-color: #f5f8fa;
+  height: 1000px;
+}
+
+
+.powerful{
+margin: 0 auto;
+width: 50%;
+padding-top: 50px;
+}
+.cubo{
+  height: 250px;
+  width: auto;
+  transform: translate(+55% , -0%);
+}
+h2{
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+/* .shadow SFUMATURA DIV */
+.CRM{
+  background-color: red;
+  height: 350px
+}
+.box{
+  padding: 60px 0px;
+}
+.box.sx{
+  width: 20%;
+  height: 350px;
+}
+
+.box.dx{
+  width: 60%;
+  height: 350px;
+}
+
+.libro{
+  height: 100px;
+  width: auto;
+}
+/* WARNING IMPORTANTE WARNING */
+/* rimango sulla riga no spazio - cambio riga spazio */
+.box.dx p{
+
+}
+.box.dx a{
+ text-align: center;
+}
+
+.HUB{
+  height: 200px;
+  background-color: yellow;
+  margin-top: 40px;
+}
+.mark{
+  height: 200px;
+  width: 50px;
+  background-color: black
 }
