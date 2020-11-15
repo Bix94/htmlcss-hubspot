@@ -243,8 +243,9 @@ text-transform: uppercase;
 /* / section top */
 /* section middle */
 .middle{
-  background-color: lightblue;
-  height: 400px;
+  /* da sfumare #00baa7*/
+  background-color: #00a5bc;
+  height: 1000px;
   color: white;
   text-align: center;
 }
@@ -255,5 +256,29 @@ text-transform: uppercase;
 }
 .middle p{
   font-size: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+}
+.box{
+  width: calc(100% / 4);
+  border-color: 2px solid black;
+  text-align: center;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white
+}
+.up-row .box:last-child{
+  border-right: 0px;
+}
+.down-row .box:last-child{
+  border-right: 0px;
+}
+.box i {
+  font-size: 40px;
+  margin-top: 0px;
+}
+.box h5{
+ font-size: 50px;
+}
+#app{
+  height: 40px;
+  width: auto;
 }
