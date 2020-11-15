@@ -24,7 +24,7 @@
   content:""
 }
 .shadow{
-  box-shadow: inset  2px 2px 2px grey;
+ box-shadow: inset 0 2px 5px rgba(0,0,0,0.1)
 }
 /* REGOLE CONTAINER PREIMPO */
 /* .ico{
@@ -34,16 +34,6 @@ header{
 width: 100%;
 background-color: #f5f8fa;
 }
-
-/* WARNING .header .inf .centro{
-  line-height: 80px;
-  height: 80px;
-  position: sticky;
-  z-index: 1;
-  top: 0px;
-  border-color: #fff;
-} */
-/* da verificare */
 .bianco{
   background-color: white;
 }
@@ -89,7 +79,7 @@ border: 1px solid #ff7a59;
  padding: 10px;
 }
 .btn-large{
- padding: 20px;
+ padding: 20px 30px;
 }
 .btn-grey{
   color: #394c60;
@@ -98,6 +88,7 @@ border: 1px solid #ff7a59;
  color: white;
  background-color: #ff7a59;
  padding: 20px 40px;
+ margin-bottom: 30px;
 }
 .jumbotron{
   background-image: url('../img/jumbotron.png');
@@ -160,6 +151,7 @@ h2{
   margin-top: 50px;
   background-color: white;
 }
+
 .box{
   padding: 60px 0px;
 }
@@ -174,10 +166,15 @@ h2{
 .box.dx{
   width: 55%;
   height: 350px;
+  text-align: left;
 }
 .box.dx ul li{
   margin-left:  0px;
   padding-right: 20px;
+  display: inline;
+}
+.box.dx i{
+  font-size: 15px;
 }
 .check{
   color: #ff7a59;
@@ -213,7 +210,6 @@ text-transform: uppercase;
 }
 .mark .inside{
   background-color: white;
-  height: 700px;
   margin: 20px 20px;
 }
 .mark .inside img{
@@ -240,23 +236,26 @@ text-transform: uppercase;
 .mark .inside p{
   line-height: 25px;
 }
+/* WARNING .mark .inside span{
+  margin-bottom: 40px;
+} */
 /* / section top */
 /* section middle */
 .middle{
   /* da sfumare #00baa7*/
-  background-color: #00a5bc;
-  height: 1000px;
+  background-image: linear-gradient( to right, #00AAB7, #00B9A9);
   color: white;
   text-align: center;
 }
 .middle h5{
   font-size: 35px;
   padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 .middle p{
   font-size: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 55px;
+  line-height: 30px;
 }
 .box{
   width: calc(100% / 4);
@@ -271,6 +270,9 @@ text-transform: uppercase;
 .down-row .box:last-child{
   border-right: 0px;
 }
+.down-row .box{
+  border-bottom: 0px;
+}
 .box i {
   font-size: 40px;
   margin-top: 0px;
@@ -281,4 +283,58 @@ text-transform: uppercase;
 #app{
   height: 40px;
   width: auto;
+}
+.bottom{
+  height: 500px;
+  background-color: white;
+}
+.bottom .up{
+  margin-top: 50px;
+}
+.customer{
+  text-align: left;
+  width: 15%;
+  margin: 0 15%;
+}
+.customer h5{
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.customer p{
+  line-height: 25px;
+  font-size: 20px;
+}
+.sponsor.dx{
+
+}
+.sponsor.dx img{
+  width: 120px;
+  vertical-align: middle;
+}
+
+.side-left,.side-right{
+  padding: 10px;
+}
+.bottom .down {
+  margin-top: 40px;
+}
+.start{
+  width: 40%;
+}
+.start h5{
+  font-size: 35px;
+}
+.start p{
+ line-height: 25px;
+ font-size: 20px;
+ margin: 50px 0px;
+}
+.foto img{
+  height: 400px;
+  width: auto;
+}
+
+footer{
+  background-color: #2d3e50;
+  height: 1000px;
 }
