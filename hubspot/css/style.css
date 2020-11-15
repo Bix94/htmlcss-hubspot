@@ -4,10 +4,8 @@
  padding: 0px;
  box-sizing: border-box;
 }
-.body{
-  font-size:
-}
 /* CENTRATURA DIV */
+/* CLASSI GENERALI */
 .centro{
   width: 80%;
   margin: 0 auto;
@@ -95,7 +93,7 @@ border: 1px solid #ff7a59;
   height: 670px;
   width: 100%;
   position: relative;
-  background-position: right;top:
+  background-position: right ; top:
 }
 .jumbotron-testo{
   width: 500px;
@@ -134,7 +132,6 @@ padding-top: 50px;
 }
 .cubo{
   height: 250px;
-  width: auto;
   transform: translate(+55% , -0%);
 }
 h2{
@@ -147,25 +144,22 @@ h2{
 }
 /* .shadow SFUMATURA DIV */
 .CRM{
-  height: 350px;
+  height: 300px;
   margin-top: 50px;
   background-color: white;
 }
-
-.box{
+.CRM .box{
   padding: 60px 0px;
 }
 .box.sx{
-  width: 10%;
-  height: 350px;
+  width: 15%;
   margin: 0% 10%;
 }
-.box.sx span{
-  margin-top: 20px;
+.box.sx img{
+  margin-bottom: 40px;
 }
 .box.dx{
   width: 55%;
-  height: 350px;
   text-align: left;
 }
 .box.dx ul li{
@@ -236,33 +230,40 @@ text-transform: uppercase;
 .mark .inside p{
   line-height: 25px;
 }
-/* WARNING .mark .inside span{
-  margin-bottom: 40px;
-} */
 /* / section top */
 /* section middle */
 .middle{
-  /* da sfumare #00baa7*/
   background-image: linear-gradient( to right, #00AAB7, #00B9A9);
   color: white;
   text-align: center;
-}
-.middle h5{
-  font-size: 35px;
   padding-top: 50px;
-  padding-bottom: 35px;
 }
-.middle p{
+.middle h3{
+  font-size: 35px;
+}
+.middle .community p{
   font-size: 20px;
-  margin-bottom: 55px;
   line-height: 30px;
+  margin-bottom: 20px;
 }
-.box{
+.middle .community img{
+  margin-top: 10px;
+}
+.middle .community h5{
+  margin: 5px 0;
+}
+.middle .up-row{
+ margin-top: 50px;
+}
+.middle .down-row{
+ padding-bottom: 90px;
+}
+.middle .box{
   width: calc(100% / 4);
   border-color: 2px solid black;
   text-align: center;
   border-right: 2px solid white;
-  border-bottom: 2px solid white
+  border-bottom: 2px solid white;
 }
 .up-row .box:last-child{
   border-right: 0px;
@@ -273,19 +274,16 @@ text-transform: uppercase;
 .down-row .box{
   border-bottom: 0px;
 }
-.box i {
-  font-size: 40px;
-  margin-top: 0px;
-}
 .box h5{
- font-size: 50px;
+ font-size: 45px;
 }
 #app{
   height: 40px;
   width: auto;
 }
 .bottom{
-  height: 500px;
+  /* TOGLIERE ALTEZZA */
+  height: 300px;
   background-color: white;
 }
 .bottom .up{
@@ -304,14 +302,13 @@ text-transform: uppercase;
   line-height: 25px;
   font-size: 20px;
 }
-.sponsor.dx{
-
+.sponsor.dx li{
+ display: inline;
 }
 .sponsor.dx img{
   width: 120px;
   vertical-align: middle;
 }
-
 .side-left,.side-right{
   padding: 10px;
 }
@@ -333,8 +330,9 @@ text-transform: uppercase;
   height: 400px;
   width: auto;
 }
-
 footer{
-  background-color: #2d3e50;
-  height: 1000px;
+  background-color: #2D3E50;
+}
+#smaller{
+  font-size: 15px;
 }
