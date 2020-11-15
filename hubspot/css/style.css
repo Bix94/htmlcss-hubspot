@@ -135,7 +135,6 @@ h1{
 }
 .top{
   background-color: #f5f8fa;
-  height: 2000px;
 }
 .powerful{
 margin: 0 auto;
@@ -207,36 +206,54 @@ text-transform: uppercase;
   width: 30%;
   text-align: center;
   background-color: white;
+  margin-bottom: 50px;
 }
 #cc{
   margin: 0px 5%;
 }
-.inside{
+.mark .inside{
   background-color: white;
   height: 700px;
   margin: 20px 20px;
 }
-.inside img{
+.mark .inside img{
   height: 100px;
   width: auto;
 }
-.inside h3{
+.mark .inside h3{
   margin-top: 20px;
 }
-.inside hr{
+.mark .inside hr{
   margin-top: 50px;
   height: 3px;
   background-color: grey;
 }
-.inside h4{
+.mark .inside h4{
   margin: 35px 0px;
 }
-.inside ul li {
+.mark .inside ul li {
   text-align: left;
 }
-.inside ul li:last-child{
+.mark .inside ul li:last-child{
   margin-bottom: 60px;
 }
-.inside p{
+.mark .inside p{
   line-height: 25px;
+}
+/* / section top */
+/* section middle */
+.middle{
+  background-color: lightblue;
+  height: 400px;
+  color: white;
+  text-align: center;
+}
+.middle h5{
+  font-size: 35px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.middle p{
+  font-size: 20px;
+  margin-bottom: 30px;
 }
