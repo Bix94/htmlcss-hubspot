@@ -63,7 +63,7 @@ padding-right: 20px;
 ul{
   list-style: none;
 }
-ul li{
+.nav.dx ul li{
   display: inline;
 }
 li{
@@ -93,6 +93,11 @@ border: 1px solid #ff7a59;
 }
 .btn-grey{
   color: #394c60;
+}
+.btn-learn{
+ color: white;
+ background-color: #ff7a59;
+ padding: 20px 40px;
 }
 .jumbotron{
   background-image: url('../img/jumbotron.png');
@@ -130,7 +135,7 @@ h1{
 }
 .top{
   background-color: #f5f8fa;
-  height: 1000px;
+  height: 2000px;
 }
 .powerful{
 margin: 0 auto;
@@ -154,6 +159,7 @@ h2{
 .CRM{
   height: 350px;
   margin-top: 50px;
+  background-color: white;
 }
 .box{
   padding: 60px 0px;
@@ -195,22 +201,19 @@ text-transform: uppercase;
  text-align: center;
 }
 .HUB{
-  height: 800px;
-  background-color: yellow;
   margin-top: 40px;
 }
 .mark{
-  height: 600px;
   width: 30%;
-  background-color: green;
   text-align: center;
+  background-color: white;
 }
 #cc{
   margin: 0px 5%;
 }
 .inside{
   background-color: white;
-  height: 500px;
+  height: 700px;
   margin: 20px 20px;
 }
 .inside img{
@@ -221,9 +224,18 @@ text-transform: uppercase;
   margin-top: 20px;
 }
 .inside hr{
-  width: 80% ;
-  margin-left: 10%;
-  margin-top: 70px;
+  margin-top: 50px;
+  height: 3px;
+  background-color: grey;
+}
+.inside h4{
+  margin: 35px 0px;
+}
+.inside ul li {
+  text-align: left;
+}
+.inside ul li:last-child{
+  margin-bottom: 60px;
 }
 .inside p{
   line-height: 25px;
