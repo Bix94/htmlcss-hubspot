@@ -25,9 +25,6 @@
  box-shadow: inset 0 2px 5px rgba(0,0,0,0.1)
 }
 /* REGOLE CONTAINER PREIMPO */
-/* .ico{
- #f7a2
-} */
 header{
 width: 100%;
 background-color: #f5f8fa;
@@ -58,11 +55,10 @@ li{
   font-size: 18px;
   margin: 0px 10px;
 }
-/* selettori btn */
+/* SELETTORI BTN */
 .btn{
   text-decoration: none;
   border-radius: 5px;
-  /* padding-right:20px; DA FIXARE */
   color: #394c60
 }
 .btn-orange{
@@ -88,6 +84,10 @@ border: 1px solid #ff7a59;
  padding: 20px 40px;
  margin-bottom: 30px;
 }
+.btn-footer{
+ background-color: #cbd6e2;
+ color: #2D3E50;
+}
 .jumbotron{
   background-image: url('../img/jumbotron.png');
   height: 670px;
@@ -99,7 +99,7 @@ border: 1px solid #ff7a59;
   width: 500px;
   margin-left: 10%;
 }
-/* z WARNING */
+/* WARNING */
 .jumbotron-testo > *{
   margin-bottom: 25px;
 }
@@ -111,7 +111,6 @@ h1{
 .jumbotron .jumbotron-testo span{
   display: inline-block;
 }
-/* WARNING SISTEMARE MARGINI IN MODO PIU PRECISOù */
 .bar{
   height: 72px;
   width: 100%;
@@ -142,7 +141,6 @@ h2{
 .cubo p{
   text-transform: full-width;
 }
-/* .shadow SFUMATURA DIV */
 .CRM{
   height: 300px;
   margin-top: 50px;
@@ -230,6 +228,9 @@ text-transform: uppercase;
 .mark .inside p{
   line-height: 25px;
 }
+/* WARNING .mark .inside a{
+  margin-bottom: : 30px;
+} */
 /* / section top */
 /* section middle */
 .middle{
@@ -281,9 +282,11 @@ text-transform: uppercase;
   height: 40px;
   width: auto;
 }
+/* /MIDDLE */
+/* BOTTOM */
 .bottom{
   /* TOGLIERE ALTEZZA */
-  height: 300px;
+  height: 230px;
   background-color: white;
 }
 .bottom .up{
@@ -329,10 +332,62 @@ text-transform: uppercase;
 .foto img{
   height: 400px;
   width: auto;
+  margin-bottom: 40px;
 }
+/* /BOTTOM */
+/* FOOTER */
 footer{
+
   background-color: #2D3E50;
+  text-transform: capitalize;
+  color: #cbd6e2;
 }
 #smaller{
   font-size: 15px;
 }
+.footer .top{
+  background-color: White;
+}
+.lista {
+  color: #cbd6e2;
+  margin-top: 40px;
+  width: 25%;
+}
+.lista ul li{
+  padding: 5px 0;
+}
+.lista ul li:first-child{
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.social li{
+  display: inline-block;
+}
+.footer-bottom{
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.languages{
+  text-align: center;
+}
+.logofoot{
+  padding-bottom: 15px;
+}
+.languages li{
+  display: inline-block;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.privacy{
+  text-align: right;
+}
+.privacy li{
+  display: inline;
+}
+#support{
+  margin: ;
+}
+/* /FOOTER */
