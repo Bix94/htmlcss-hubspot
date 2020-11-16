@@ -29,8 +29,21 @@ header{
 width: 100%;
 background-color: #f5f8fa;
 }
+.header .sup{
+  height: 80px;
+  line-height: 80px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.header .inf{
+  /* margin-top: 80px; */
+}
+
 .bianco{
   background-color: white;
+
 }
 .nav{
   padding: 25px 0;
@@ -93,7 +106,9 @@ border: 1px solid #ff7a59;
   height: 670px;
   width: 100%;
   position: relative;
+
   background-position: right ; top:
+
 }
 .jumbotron-testo{
   width: 500px;
@@ -142,7 +157,6 @@ h2{
   text-transform: full-width;
 }
 .CRM{
-  height: 300px;
   margin-top: 50px;
   background-color: white;
 }
@@ -228,9 +242,11 @@ text-transform: uppercase;
 .mark .inside p{
   line-height: 25px;
 }
-/* WARNING .mark .inside a{
+
+.mark .inside a{
   margin-bottom: : 30px;
-} */
+  display: inline-block;
+}
 /* / section top */
 /* section middle */
 .middle{
@@ -323,11 +339,15 @@ text-transform: uppercase;
 }
 .start h5{
   font-size: 35px;
+  margin-bottom: 40px;
 }
 .start p{
  line-height: 25px;
  font-size: 20px;
- margin: 50px 0px;
+}
+.start a{
+ display: inline-block;
+ margin: 40px 0;
 }
 .foto img{
   height: 400px;
@@ -361,8 +381,10 @@ footer{
   font-weight: bold;
   color: white;
 }
-
-
+.lista ul a{
+  display: inline-block;
+  margin: 10px 0;
+}
 .social li{
   display: inline-block;
 }
@@ -387,7 +409,5 @@ footer{
 .privacy li{
   display: inline;
 }
-#support{
-  margin: ;
-}
+
 /* /FOOTER */
