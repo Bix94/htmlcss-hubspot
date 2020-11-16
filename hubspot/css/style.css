@@ -113,6 +113,7 @@ border: 1px solid #ff7a59;
   background-image: url('../img/jumbotron.png');
   height: 670px;
   width: 100%;
+  background-repeat: no-repeat;
   position: relative;
   background-position: right ; top:
 }
@@ -198,6 +199,15 @@ margin-bottom: 30px;
 h4{
 margin: 20px 0px;
 text-transform: uppercase;
+}
+.box.dx h4::after{
+content: "";
+display: block;
+float: right;
+width: 65%;
+height: 2px;
+margin-top: 7px;
+background-color: #33475b;
 }
 .libro{
   height: 100px;
