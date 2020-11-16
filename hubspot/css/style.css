@@ -373,7 +373,6 @@ background-color: #33475b;
 /* /BOTTOM */
 /* FOOTER */
 footer{
-
   background-color: #2D3E50;
   text-transform: capitalize;
   color: #cbd6e2;
@@ -425,5 +424,38 @@ footer{
 .privacy li{
   display: inline;
 }
-
 /* /FOOTER */
+.help{
+  position: fixed;
+  /* height: 400px;
+  width: 400px; */
+  background-color: white;
+  z-index: 3;
+  bottom: 0;
+  right: 0;
+}
+.help .container{
+  width: 250px;
+  height: 120px;
+}
+.help i{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  color: lightgrey;
+}
+.robot{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  margin-top: -25px;
+  margin-left: -25px;
+}
+.help p{
+  padding: 30px 10px;
+  font-size: 15px;
+  text-align: left;
+  line-height: 25px;
+
+}
