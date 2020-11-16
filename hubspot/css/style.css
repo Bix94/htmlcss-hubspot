@@ -29,21 +29,29 @@ header{
 width: 100%;
 background-color: #f5f8fa;
 }
-.header .sup{
-  height: 80px;
-  line-height: 80px;
-  position: fixed;
+
+.fixed{
   z-index: 1;
   top: 0;
   left: 0;
+  width: 100%;
+  position: fixed;
+  height: 80px;
+  background-color:  #f5f8fa;
+  border-bottom: 2px solid black;
 }
-.header .inf{
-  /* margin-top: 80px; */
+.header.sup{
+  height: 80px;
+  background-color:  #f5f8fa;
+  border-bottom:  2px solid black;
 }
-
+.header.inf{
+  height: 80px;
+  margin-top: 80px;
+}
 .bianco{
   background-color: white;
-
+  margin-top: 80px;
 }
 .nav{
   padding: 25px 0;
@@ -106,9 +114,7 @@ border: 1px solid #ff7a59;
   height: 670px;
   width: 100%;
   position: relative;
-
   background-position: right ; top:
-
 }
 .jumbotron-testo{
   width: 500px;
